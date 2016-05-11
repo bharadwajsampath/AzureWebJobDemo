@@ -1,0 +1,189 @@
+
+body{ background:url(../images/bg.png) repeat; font-family: 'sansalightregular'; font-size:14px;}
+
+
+.topHd_BG{background: rgba(4, 4, 4, 0.5); width:100%; float:left; border-bottom:2px solid #0072c4;}
+.fixed .topHd_BG { background: rgba(4, 4, 4, 1); z-index:999999; }
+.navbar{ margin-bottom:0px;}
+.logo{ padding:0px;}
+
+.nav > li > a:hover, .nav > li > a:focus{background:none;}
+.menuBar li a{ color:#fff;padding:15px !important; font-family:'sansalightregular'; text-transform:uppercase; }
+.menuBar li a:hover{ color:#0072c4; text-decoration:none;}
+.menuBar li a.act{ color:#0072c4; text-decoration:none; background:url(../images/menu_arrow.png) no-repeat bottom center;} 
+
+.navbar-toggle {
+    background: url(../images/menu_icon.png) no-repeat;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 8px;
+    margin-right: 15px;
+    margin-top: 18px;
+    padding:8px 10px;
+    position: relative;
+}
+
+
+.sliderMain{ width:100%; float:left;}
+
+.glyphicon-chevron-left2 {
+  background:url(../images/left-arrow.png) left no-repeat;
+   font-size: 30px;
+    height: 83px;
+    margin-top: -10px;
+    width: 50px;
+	  display: inline-block;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.glyphicon-chevron-right2 {
+   background:url(../images/right-arrow.png) left no-repeat;
+    font-size: 30px;
+    height: 83px;
+    margin-top: -10px;
+    width: 50px;
+	  display: inline-block;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+/*Tab
+=============================*/
+.ab_stText{ color:#0072c4; font-size:20px; font-weight:bold;}
+.boxTab{ width:60%; margin:50px auto 20px; text-align:center;}
+.tab_service{ width:70%;margin:auto 30%; border:none;}
+
+#cont_area_text{ float:left; width:100%;}
+
+.boxTab p{ color:#fff;}
+
+.tab_service li a{ color:#0d0d0d; font-size:24px; background:#fff; border-radius:0 !important; font-weight:bold;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
+.nav-tabs > li > a:hover {
+    background:#0072c4;color:#fff; border-radius:0;border-color:transparent; cursor:pointer; 
+}
+.nav > li > a {
+    display: block;
+    padding: 11px 16px;
+    position: relative;
+}
+.nav-tabs > li > a {
+    border-radius: 4px 4px 0 0;
+    border-right: 1px solid #ccc;
+    line-height: 1.42857;
+    margin-right: 0;
+}
+.tab_service li.active{background:#0072c4;color:#fff; border-radius:0;border-color:transparent; cursor:pointer;}
+
+
+/*End-----*/
+
+
+.lineBorderArrow_right{width:51%; margin:70px 0 10px; float:right; border-bottom:2px solid #fff;}
+.arrowDown_right{
+    color: #333; background:#fff; border-radius:50%;
+    float: left;
+    font-size: 20px;
+    position: relative; padding:13px 14px;
+    top:20px;
+	left:-2px;
+	}
+	.arrowDown_right:hover {
+    color: #fff; background:#0072c4;
+	}
+.title_heding{ text-align:center; color:#fff; font-size:34px;padding:5px 0 20px 0;}
+
+.lineBorderArrow{width:51%; margin:70px 0 10px; float:left; border-bottom:2px solid #fff;}
+.arrowDown {
+    color: #333; background:#fff; border-radius:50%;
+    float: right;
+    font-size: 20px;
+    position: relative; padding:13px 14px;
+    top:20px;
+	right:-2px;
+	}
+	.arrowDown:hover {
+    color: #fff; background:#0072c4;
+	}
+
+/* Contact Area Css
+=======================================*/
+.map_area{ height:auto; width:100%; float:left; margin-bottom:20px;}
+
+.contact_area{ width:70%;margin:0 auto 50px;}
+
+.contact_area p{ text-align:center; color:#fff; font-size:16px; padding:5px 0;}
+.contact_area span{ padding:0 15px}
+.textBox{ margin-bottom:30px;}
+.textBox input{ border:1px solid #9d9d9d; background: rgba(4, 4, 4, 0.1); color:#fff; font-family: 'sansalightregular'; font-size:20px; height:50px;}
+.textBox label{color:#fff; font-family: 'sansalightregular'; font-size:20px;}
+..textBox{ width:100%; float:left; margin-bottom:25px;}
+.textBox textarea{ border:1px solid #9d9d9d; background: rgba(4, 4, 4, 0.1); color:#fff; font-family: 'sansalightregular'; font-size:20px; height:131px;}
+.sendBtn{ width:100%; float:left; text-align:center; color:#fff; background:#0072c4; font-size:20px; border:none; text-transform:uppercase; height:50px;}
+.sendBtn:hover{ background:#289ff4; color:#fff;}
+
+.social_icon{ width:100%; float:left; text-align:center; margin-bottom:35px;}
+.social_icon a{ margin:0 10px; color:#fff;}
+.socil_ic {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 22px;
+    height: 50px;
+    padding: 13px;
+    width: 50px;
+}
+.socil_ic:hover {
+background:#0072c4;
+    border: 1px solid #0072c4;
+	color:#fff;
+}
+
+.carousel-caption p{ font-size:18px;}
+.carousel-caption {
+    left: 20%;
+    padding-bottom: 30px;
+    right: 20%;
+    top:30%;
+}
+
+
+
+/*Footer CSS
+====================================*/
+.footerBg{padding:15px 0; width:100%; float:left; background: rgba(4, 4, 4, 0.6);}
+.footer_menu{float:left; width:auto;}
+.footer_menu ul{ margin:0px; float:left;}
+.footer_menu ul li{ list-style:none; float:left;}
+.footer_menu ul li a{ list-style:none; float:left; text-decoration:none; color:#fff; padding-right:15px;}
+.footer_menu ul li a:hover { list-style:none; float:left; text-decoration:none; color:#0072c4;}
+
+.footerRight{ float:right; width:auto; color:#fff;}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) { 
+.tab_service {
+    border: medium none;
+    margin: auto 20%;
+    width: 80%;
+}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 640px) { 
+.tab_service {
+    border: medium none;
+    margin: auto;
+    width: 100%;
+}
+.tab_service li a{ color:#0d0d0d; font-size:14px; background:#fff; border-radius:0 !important; font-weight:bold;}
+.menuBar li a.act{ color:#0072c4; text-decoration:none; background:none;}
+.carousel-caption {
+    top:0%;
+}
+.boxTab {
+    margin: 50px auto 20px;
+    text-align: center;
+    width:80%;
+}
+}
